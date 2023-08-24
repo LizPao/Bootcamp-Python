@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+li {
+    box-sizing: border-box;
+}
+
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.global_nav_item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.global_nav_item:hover {
+    background: #fff;
+    color: #42210b;
+}
+
+.global_nav {
+    display: flex;
+    align-items: stretch;
+}
+
+.logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.text {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.text p {
+    width: 500px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+
+.key h1 {
+    margin-top: 160px;
+    font-size: 2.5rem;
+}
+
+.section_title {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu_title {
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.caffee_menu_image {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.menuContainer {
+    background: center / cover no-repeat url('../images/sample_menu_bg.jpg');
+    background-attachment: fixed;
+}
+/* Estilos para la lista personalizada */
+.custom-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para los elementos de la lista */
+.custom-li {
+    width: 49%;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+}
+
+/* Estilos para las imágenes en los elementos */
+.custom-li img {
+    width: 55%;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/* Estilos para el contenido debajo de las imágenes */
+.custom-li .item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    
+}
+
+/* Estilos adicionales */
+.center {
+    text-align: center;
+}
+
+.menu_title {
+    margin: 20px 0;
+}
+.title_menu{
+    font-size: 26px;
+    margin-bottom: 50%;
+}
+.price{
+    margin: 25% 0;
+    text-align: end;
+}
+
+/* Estilos para la lista de menú */
+.coffee_container{
+    background-color: rgb(160, 193, 110);
+    padding: 2%;
+}
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    background-color: white;
+    padding: 2%;
+}
+
+/* Estilos para los elementos de menú */
+.menu-item {
+    width: 49%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las imágenes en los elementos */
+.caffee_menu-img {
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Estilos para el texto a la derecha de las imágenes */
+.menu-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2%;
+}
+
+/* Estilos adicionales para el centro y el título */
+.menu-center {
+    text-align: center;
+}
+
+.menu-title {
+    margin: 20px 0;
+}
+/* Agrupación de elementos */
+.group1 {
+    order: 1; /* Cambiar el orden en la primera fila */
+}
+
+.group2 {
+    order: 2; /* Cambiar el orden en la segunda fila */
+}
+
+/* Estilos para el contenedor de los dl */
+.dl-row {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para los elementos dl */
+.dl-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los términos dt */
+.dl-term {
+    width: 80px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+/* Estilos para las descripciones dd */
+.dl-description {
+    flex: 1;
+    margin: 0;
+}
+
+/* Estilos para el iframe */
+section_inner iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+/* Estilos para el footer */
+.custom-footer {
+    background-color: #251e19;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap; /* Permitir envolver los elementos en filas */
+}
+
+/* Estilos para la navegación en el footer */
+.footer-nav {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-nav li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para el logotipo en el footer */
+.footer-logo img {
+    max-width: 5%;
+}
+
+/* Estilos para el texto del footer */
+.footer-text {
+    text-align: center;
+    flex-basis: 100%; /* Ocupar todo el ancho disponible */
+    font-size: 12px;
+}
+
+
