@@ -7,8 +7,7 @@ def introducir_puntos_comentarios():
             point = int(point)
 
             if point <= 0 or point > 5:
-                print('Indíquelo en una escala de 1 a 5')
-                point = input()
+                print('Por favor, introduzca un valor entre el 1 y 5')
             else:
                 print('Introduzca sus comentarios.')
                 comment = input()
@@ -17,14 +16,12 @@ def introducir_puntos_comentarios():
                     file_pc.write(f'{post}\n')
                 break
         else:
-            print('Introduzca los puntos de valoración como números')
-
+            print('Por favor, introduzca los puntos de valoración como números')
 
 def mostrar_resultados():
     print('Resultados hasta la fecha.')
     with open("data.txt", "r") as read_file:
         print(read_file.read())
-
 
 def main():
     while True:
@@ -45,10 +42,9 @@ def main():
                 print('Terminación.')
                 break
             else:
-                print('Introduzca de 1 a 3')
+                print('Por favor, introduzca del 1 a 3')
         else:
-            print('Introduzca de 1 a 3')
-
+            print('Por favor, introduzca del 1 a 3')
 
 if __name__ == "__main__":
     main()
