@@ -75,7 +75,11 @@ li {
 }
 
 .text p {
-    width: 500px;
+    width: 60%;
+}
+
+.text img{
+    width: 35%;
 }
 
 .key {
