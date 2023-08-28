@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Título 1",
+        "content": "Contenido 1",
+        "videoUrl": "URL_del_video_1"
+    },
+    {
+        "title": "Título 2",
+        "content": "Contenido 2",
+        "videoUrl": "URL_del_video_2"
+    }
+]
